@@ -1,10 +1,7 @@
 # `univar`
 
 [![npm version](https://img.shields.io/npm/v/univar.svg)](https://www.npmjs.com/package/univar)
-[![npm license](https://img.shields.io/npm/l/univar.svg)](https://www.npmjs.com/package/univar)
-[![npm downloads](https://img.shields.io/npm/dm/univar.svg)](https://www.npmjs.com/package/univar)
-[![Known Vulnerabilities](https://snyk.io/test/github/nickyhaze/univar/badge.svg)](https://snyk.io/test/github/nickyhaze/univar)
-
+![NPM License](https://img.shields.io/npm/l/univar)
 ## Overview
 
 `univar` lets you use **one script syntax** for environment variables that works on **macOS/Linux (bash)** and **Windows (cmd)**. It replaces `$VAR` and `%VAR%` placeholders in your commands before execution.
