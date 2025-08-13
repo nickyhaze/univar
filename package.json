@@ -1,0 +1,39 @@
+{
+  "name": "univar",
+  "version": "0.1.0",
+  "description": "Cross-platform environment variable substitution for shell commands.",
+  "main": "index.js",
+  "bin": {
+    "univar": "index.js"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickyhaze/univar.git"
+  },
+  "keywords": [
+    "cli",
+    "shell",
+    "environment",
+    "variables",
+    "cross-platform",
+    "bash",
+    "cmd"
+  ],
+  "author": "Nicky Haze",
+  "license": "MIT"
+}
